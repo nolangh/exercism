@@ -1,7 +1,8 @@
 // This is only a SKELETON file for the 'Allergies' exercise. It's been provided as a
 // convenience to get you started writing code faster.
-//
-const allergies = new map([
+//ANCHOR If input value is equal to map.value + map.value return list of those keys in an array
+
+const allergies = new Map([
 	["eggs", 1],
 	["peanuts", 2],
 	["shellfish", 4],
@@ -12,6 +13,4 @@ const allergies = new map([
 	["cats", 128],
 ]);
 
-const list = () => {};
-
-console.log(me);
+const list = (num) => {};
