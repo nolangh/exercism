@@ -26,7 +26,9 @@
  *
  * @return {boolean} Whether or not you can execute a fast attack.
  */
-export function canExecuteFastAttack(knightIsAwake) {}
+export function canExecuteFastAttack(knightIsAwake) {
+	return knightIsAwake ? false : true;
+}
 
 /**
  * A useful spy captures information, which they can't do if everyone's asleep.
